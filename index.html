@@ -6,28 +6,34 @@
     <title>loop2step2</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="container">
-      <div class="head">
-        <div class="account">
-          <p>Account setting</p>
-          <div class="close">X</div>
-        </div>
-      </div>
 
-      <div class="users">
-        <img src="./media/img/avatar.jpg" alt="user-pic" />
-        <div class="details">
-          <div class="usernames">
-            <span class="name">USERNAME</span>
-            <input
-              type="text"
-              class="username"
-              placeholder="Enter your username"
-            />
-          </div>
-        </div>
-      </div>
+  <main>
+    <div class="header">
+      <h2>Account settings</h2>
+      <p class="entity">&#215;</p>
     </div>
-  </body>
+    <form>
+      <img src="./media/img/avatar.jpg" alt="" />
+      <div class="user">
+        <label>USERNAME</label
+        ><input type="text" placeholder="Enter your username" />
+      </div>
+      <div class="fla">
+        <label>FIRST NAME</label>
+        <label>LAST NAME</label>
+      </div>
+      <div class="flainput">
+        <input type="text" placeholder="Enter your last name" />
+        <input type="text" placeholder="Enter your first name" />
+      </div>
+      <label>Email</label><input type="text" placeholder="Enter your email" />
+
+      <label>Bio</label
+      ><input type="text" placeholder="Tell us about your self" />
+    </form>
+    <div class="footer">
+      <p>Cancel</p>
+      <p>Save</p>
+    </div>
+  </main>
 </html>
